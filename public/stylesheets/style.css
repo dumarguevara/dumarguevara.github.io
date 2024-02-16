@@ -107,3 +107,18 @@ nav ul {
 #mapa {
   grid-area: area5;
 }
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+}
