@@ -53,8 +53,8 @@ h1 {
 .seccion {
   background-color: white;
   padding: 2%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 2% !important;
+  margin-bottom: 2% !important;
   box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
 }
 
@@ -80,4 +80,30 @@ nav ul {
   color: #373b41;
 }
 
+#seccioncontactenos {
+  display: grid;
+  grid-template-areas:  "area1 area1 area1 area1"
+                        "area2 area2 area3 area3"
+                        "area4 area4 area5 area5";
+                        
+}
 
+#contactame {
+  grid-area: area1;
+}
+
+#susdatos {
+  grid-area: area2;
+}
+
+#ubicacion {
+  grid-area: area3;
+}
+
+#formulario {
+  grid-area: area4;
+}
+
+#mapa {
+  grid-area: area5;
+}
