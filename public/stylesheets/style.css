@@ -7,6 +7,7 @@ h1 {
   #secciondatos {
     width: 50%;
     margin: 0 auto;
+    background-color: aquamarine;
   }
 
   
@@ -27,6 +28,14 @@ h1 {
     width: 30%;
     margin: 0 auto;
     text-align: center;
+    background-color: aquamarine;  
+  }
+
+  #secciongaleria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: cyan;
   }
 
   a {
@@ -40,6 +49,7 @@ h1 {
 }
 
 
+
 #seccionhabilidades table td {
     text-align: center;
 }
@@ -47,15 +57,21 @@ h1 {
 
 #seccionhabilidades table {
     margin: 0 auto;
+    background-color: dodgerblue;
 }
 
+#seccionhabilidades h2 {
+  text-align: center;
+  
+}
 
 .seccion {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.801);
   padding: 2%;
   margin-top: 2% !important;
   margin-bottom: 2% !important;
   box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+  
 }
 
 
@@ -84,12 +100,13 @@ nav ul {
   display: grid;
   grid-template-areas:  "area1 area1 area1 area1"
                         "area2 area2 area3 area3"
-                        "area4 area4 area5 area5";
-                        
+                        "area4 area4 area5 area5";          
+                        background-color: aquamarine;              
 }
 
 #contactame {
   grid-area: area1;
+  text-align: center;
 }
 
 #susdatos {
@@ -97,6 +114,7 @@ nav ul {
 }
 
 #ubicacion {
+  text-align: center;
   grid-area: area3;
 }
 
@@ -121,4 +139,8 @@ address {
 #formulario {
   display: flex;
   flex-direction: column;
+}
+
+#secciondatos {
+  text-align: center;
 }

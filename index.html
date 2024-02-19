@@ -28,24 +28,23 @@
   <!-- Nav: Fin -->
 
   <section id="secciondatos" class="seccion">
-    <h2>Datos personales</h2>
+    <img id="jdgs" src="public/images/jdgs.jpg" alt="jdgs" width="30%">
+    
+    <h2>Datos personales</h2> 
 
     <span>Nombres: Jorge Dumar </span><br>
-    <span>Apellidos: Guevara Serrano </span>
+    <span>Apellidos: Guevara Serrano </span>    
 
     <p>¡Hola! Soy Dumar Guevara S., con experiencia en desarrollo web en front end y
-      back end. Participo en todas las etapas
-      del ciclo de desarrollo de proyectos web dinámicos. Además, tengo
-      sólidos conocimientos en gestión de proyectos
-      y relaciones con los clientes.</p>
+      back end. He desplegado proyectos en lenguaje Java combinados con Oracle y Postgresql, dando mantenimiento a paginas transaccionales e informativas. Me gusta aplicar dashboards para facilitar el acceso a la información.</p>
 
   </section>
 
   <section id="seccionredes" class="seccion">
     <h2>Redes sociales</h2>
 
-    <span><a href="https://www.linkedin.com/">LinkedIn</a></span>
-    <span><a href="https://github.com/">Github</a></span>
+    <span id="linked"><a href="https://www.linkedin.com/in/jorge-guevara-serrano">---LinkedIn---</a></span>
+    <span id="github"><a href="https://github.com/dumarguevara">---Github---</a></span>
 
   </section>
 
@@ -60,7 +59,7 @@
     </ul>
 
     <h2>Idiomas</h2>
-    <table>
+    <table border="1">
       <caption>Habilidad en idiomas</caption>
       <tr>
         <th></th>
@@ -110,15 +109,15 @@
       <label for="nombre">Apellidos:</label><input type="text" name="apellidos" id="apellidos">
 
       <label>Seleccione su rango de edad</label>
-      <input type="radio" id="opcion1" name="edad" value="menor25"><label for="opcion1"> menor a 25 años</label>
-      <input type="radio" id="opcion2" name="edad" value="entre26y20"><label for="opcion2"> entre 26 y 30 años</label>
-      <input type="radio" id="opcion3" name="edad" value="mayor31"><label for="opcion3"> mayor a 31 años</label>
+      <label for="opcion1"><input type="radio" id="opcion1" name="edad" value="menor25"> menor a 25 años</label>
+      <label for="opcion2"><input type="radio" id="opcion2" name="edad" value="entre26y20"> entre 26 y 30 años</label>
+      <label for="opcion3"><input type="radio" id="opcion3" name="edad" value="mayor31"> mayor a 31 años</label>
 
       <label>Seleccione el tipo de servicio a consultar</label>
-      <input type="checkbox" name="frontend" id="frontend"><label for="frontend">Frontend Dev</label>
-      <input type="checkbox" name="backend" id="backend"><label for="backend">Backend Dev</label>
-      <input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo de software</label>
-      <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label>
+      <label for="frontend"><input type="checkbox" name="frontend" id="frontend">Frontend Dev</label>
+      <label for="backend"><input type="checkbox" name="backend" id="backend">Backend Dev</label>
+      <label for="scrum"><input type="checkbox" name="scrum" id="scrum">Desarrollo de software</label>
+      <label for="cicd"><input type="checkbox" name="cicd" id="cicd">CI/CD</label>
       <button type="submit">Enviar</button>
     </form>
 
@@ -127,7 +126,7 @@
     <div id="mapa">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0724604403404!2d-79.59538952602!3d-2.125813537117911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d47976c8804f5%3A0xe22bf0104ee66546!2s9%20de%20Octubre%20615%2C%20Milagro!5e0!3m2!1ses!2sec!4v1707861045308!5m2!1ses!2sec"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        width="400" height="300" style="border:0;" align="right" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
